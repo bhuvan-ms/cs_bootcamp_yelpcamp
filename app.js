@@ -57,6 +57,4 @@ app.use("/campgrounds", campgroundRoute);
 app.use("/campgrounds/:id/comments", commentRoute);
 
 
-app.listen(3000, function(){
-	console.log("servers up...")
-});
+app.listen(process.env.PORT || 5000) // this is the command that should be used when deploying apps to heroku cause it's the default number set for node.js apps
