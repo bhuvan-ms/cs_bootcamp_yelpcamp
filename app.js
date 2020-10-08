@@ -25,7 +25,6 @@ mongoose.set('useFindAndModify', false); // copied from the mongoose website to 
 mongoose.set('useCreateIndex', true); // copied from the mongoose website to stop deprecaaion warning
 mongoose.set('useUnifiedTopology', true); // copied from the mongoose website to stop deprecaaion warning
 mongoose.connect("mongodb+srv://noah:doom2016@cluster0.djkyp.mongodb.net/Cluster0?retryWrites=true&w=majority");
-// mongodb+srv://noad:<password>@cluster0.djkyp.mongodb.net/<dbname>?retryWrites=true&w=majority
 // mongoose.connect("mongodb://localhost/yelp_camp");// to connect to mongodb serverlocally
 	
 	
